@@ -142,7 +142,7 @@ int main(int argc, char* argv[])
         std::cout << "Your rop chain: only driver's Offsets and Values\n\n";
 
         for (uint64_t value : chainStorage) {
-            std::cout << "0x" << value << std::endl;
+            std::cout << "0x" << std::hex<< value << std::endl;
         }
 
         return 0;
